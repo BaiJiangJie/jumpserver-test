@@ -28,7 +28,7 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
           python -m pip install poetry
           poetry install --without python-ldap  # Install dependencies excluding python-ldap
-          poetry run pip install --no-use-pep517 python-ldap
+#          poetry run pip install --no-use-pep517 python-ldap
 
       - name: Run Compile-Messages
         run: python manage.py compilemessages
