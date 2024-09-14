@@ -25,7 +25,7 @@ jobs:
 
       # 安装系统依赖
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y libsasl2-dev python3-dev libldap2-dev libssl-dev
+        run: sudo apt-get update && sudo apt-get install -y libsasl2-dev python3-dev libldap2-dev libssl-dev gettext
 
 
       - name: Install Poetry
