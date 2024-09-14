@@ -34,7 +34,13 @@ jobs:
           echo "export PATH=$HOME/.local/bin:$PATH" >> $GITHUB_ENV
 
       - name: Install dependencies
-        run: poetry install
+        run: |
+          poetry install
+          echo "VENV_PATH=$(poetry env info --path)" >> $GITHUB_ENV
+
 
       - name: Run Compile-Messages
-        run: cd apps && python manage.py compilemessages
+        run: |
+          source $VENV_PATH/bin/activate
+          cd apps
+          python manage.py compilemessages
