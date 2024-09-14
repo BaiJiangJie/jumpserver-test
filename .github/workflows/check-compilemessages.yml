@@ -37,4 +37,4 @@ jobs:
         run: poetry install
 
       - name: Run Compile-Messages
-        run: python manage.py compilemessages
+        run: cd apps && python manage.py compilemessages
