@@ -1,0 +1,30 @@
+name: Check I18n files CompileMessages
+
+on:
+  push:
+    branches:
+      - 'pr*'
+    paths:
+      - apps/i18n/*
+
+jobs:
+  compile-messages-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install poetry
+          poetry install --with-xpack
+
+      - name: Run Compile-Messages
+        run: python manage.py compilemessages
