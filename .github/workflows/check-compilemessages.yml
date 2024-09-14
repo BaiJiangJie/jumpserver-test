@@ -1,12 +1,15 @@
 name: Check I18n files CompileMessages
 
 on:
-  push:
+  pull_request:
     branches:
-      - 'pr*'
+      - 'pr*'  # 匹配分支名称以 'pr' 开头
     paths:
-      - apps/i18n/*
-
+      - 'apps/i18n/core/**/*.po'
+    types:
+      - opened
+      - synchronize
+      - reopened
 jobs:
   compile-messages-check:
     runs-on: ubuntu-latest
