@@ -10424,6 +10424,6 @@ msgstr "企业专业版"
 msgid "Ultimate edition"
 msgstr "企业旗舰版"
 
-msgid "Ultimate edition1"
+msgid "Ultimate edition"
 msgstr ""
 
