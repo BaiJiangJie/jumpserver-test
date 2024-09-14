@@ -42,5 +42,6 @@ jobs:
       - name: Run Compile-Messages
         run: |
           source $VENV_PATH/bin/activate
+          cp config_example.yml config.yml
           cd apps
           python manage.py compilemessages
