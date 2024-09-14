@@ -3,7 +3,7 @@ name: Check I18n files CompileMessages
 on:
   pull_request:
     branches:
-      - 'pr*'  # 匹配分支名称以 'pr' 开头
+      - 'dev'  # 匹配分支名称以 'pr' 开头
     paths:
       - 'apps/i18n/core/**/*.po'
     types:
