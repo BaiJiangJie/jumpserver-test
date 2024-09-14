@@ -26,6 +26,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip setuptools wheel
+          python -m pip wheel --no-cache-dir --use-pep517 "python-ldap (==3.4.3)"
           pip install poetry
           poetry install
 
