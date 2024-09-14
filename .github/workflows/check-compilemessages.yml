@@ -38,7 +38,6 @@ jobs:
           poetry install
           echo "VENV_PATH=$(poetry env info --path)" >> $GITHUB_ENV
 
-
       - name: Run Compile-Messages
         run: |
           source $VENV_PATH/bin/activate
