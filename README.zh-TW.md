@@ -3,8 +3,6 @@
   <a href="https://jumpserver.org/index-en.html"><img src="https://download.jumpserver.org/images/jumpserver-logo.svg" alt="JumpServer" width="300" /></a>
   
 ## An open-source PAM tool (Bastion Host)
-## Test Language
-## Test Language2
 
 [![][license-shield]][license-link][![][discord-shield]][discord-link][![][docker-shield]][docker-link][![][github-release-shield]][github-release-link][![][github-stars-shield]][github-stars-link]
 
@@ -79,7 +77,7 @@ JumpServer由多個關鍵元件組成，共同構成JumpServer的功能框架，
 
 ## 安全
 
-JumpServer is a mission critical product. Please refer to the Basic Security Recommendations for installation and deployment. If you encounter any security-related issues, please contact us directly:
+JumpServer 是一款關鍵任務產品。安裝部署請參考基本安全建議。如果您遇到任何安全相關問題，請直接與我們聯絡：
 
 -   電子郵件：support@fit2cloud.com
 
