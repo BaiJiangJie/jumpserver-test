@@ -6,9 +6,6 @@ on:
         description: "Target languages"
         required: false
         default: "zh-hans,zh-hant,ja,pt-br"
-  push:
-    branches:
-      - dev
 jobs:
   build:
     runs-on: ubuntu-latest
