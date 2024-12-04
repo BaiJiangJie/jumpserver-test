@@ -1,6 +1,11 @@
 name: Translate README
-
 on:
+  workflow_dispatch:
+    inputs:
+      example_input:
+        description: "An example input" # 描述输入
+        required: false
+        default: "default_value" # 默认值
   push:
     branches:
       - dev
