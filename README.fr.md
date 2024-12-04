@@ -3,8 +3,6 @@
   <a href="https://jumpserver.org/index-en.html"><img src="https://download.jumpserver.org/images/jumpserver-logo.svg" alt="JumpServer" width="300" /></a>
   
 ## An open-source PAM tool (Bastion Host)
-## Test Language
-## Test Language2
 
 [![][license-shield]][license-link][![][discord-shield]][discord-link][![][docker-shield]][docker-link][![][github-release-shield]][github-release-link][![][github-stars-shield]][github-stars-link]
 
@@ -13,7 +11,7 @@
 </div>
 <br/>
 
-## What is JumpServer?
+## Qu'est-ce que JumpServer ?
 
 JumpServer est un outil open source de gestion des accès privilégiés (PAM) qui fournit aux équipes DevOps et informatiques un accès à la demande et sécurisé aux points de terminaison SSH, RDP, Kubernetes, Database et RemoteApp via un navigateur Web.
 
@@ -71,7 +69,7 @@ JumpServer se compose de plusieurs composants clés, qui forment collectivement 
 | \[Rasoir](https&#x3A;//github.com/jumpserver/razor)    | <img alt="Chen" src="https://img.shields.io/badge/release-private-red" />                                                                            | Connecteur proxy RDP JumpServer EE                        |
 | \[Bricoler](https&#x3A;//github.com/jumpserver/tinker) | <img alt="Tinker" src="https://img.shields.io/badge/release-private-red" />                                                                          | Connecteur d'application distante JumpServer EE (Windows) |
 | \[Panda](https&#x3A;//github.com/jumpserver/Panda)     | <img alt="Panda" src="https://img.shields.io/badge/release-private-red" />                                                                           | Connecteur d'application distante JumpServer EE (Linux)   |
-| \[Magnus](https&#x3A;//github.com/jumpserver/magnus)   | <img alt="Magnus" src="https://img.shields.io/badge/release-private-red" />                                                                          | JumpServer EE Database Proxy Connector                    |
+| \[Magnus](https&#x3A;//github.com/jumpserver/magnus)   | <img alt="Magnus" src="https://img.shields.io/badge/release-private-red" />                                                                          | Connecteur proxy de base de données JumpServer EE         |
 
 ## Contribuer
 
@@ -87,11 +85,11 @@ JumpServer est un produit critique. Veuillez vous référer aux recommandations 
 
 Copyright (c) 2014-2024 FIT2CLOUD, Tous droits réservés.
 
-Licensed under The GNU General Public License version 3 (GPLv3) (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+Sous licence GNU General Public License version 3 (GPLv3) (la « Licence ») ; vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence. Vous pouvez obtenir une copie de la licence à
 
 https&#x3A;//www.gnu.org/licenses/gpl-3.0.html
 
-Sauf disposition contraire de la loi applicable ou accord écrit, le logiciel distribué sous la licence est distribué « TEL QUEL », SANS GARANTIE OU CONDITION D'AUCUNE SORTE, expresse ou implicite. Consultez la licence pour connaître la langue spécifique régissant les autorisations et les limitations en vertu de la licence.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an " AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 <!-- JumpServer official link -->
 
