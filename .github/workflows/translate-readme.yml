@@ -12,7 +12,8 @@ jobs:
     steps:
       - name: Auto Translate
         uses: BaiJiangJie/translate-readme@main
-        with:
-          gpt_token: ${{ secrets.GPT_API_TOKEN }}
-          gpt_mode: 'gpt-4o-mini'
-          target_languages: ${{ github.event.inputs.languages }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.GPT_API_TOKEN }}
+          GPT_MODE: 'gpt-4o-mini'
+          TARGET_LANGUAGES: ${{ github.event.inputs.languages }}
