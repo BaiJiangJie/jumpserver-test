@@ -2,10 +2,10 @@ name: Translate README
 on:
   workflow_dispatch:
     inputs:
-      example_input:
-        description: "An example input" # 描述输入
+      languages:
+        description: "Target languages"
         required: false
-        default: "default_value" # 默认值
+        default: "zh-hans,zh-hant,ja,pt-br"
   push:
     branches:
       - dev
@@ -22,4 +22,4 @@ jobs:
         with:
           gpt_token: ${{ secrets.GPT_API_TOKEN }}
           gpt_mode: 'gpt-4o-mini'
-          target_languages: 'zh-hans,zh-hant,ja,pt-br'
+          target_languages: ${{ github.event.inputs.languages }}
