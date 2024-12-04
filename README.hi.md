@@ -3,8 +3,6 @@
   <a href="https://jumpserver.org/index-en.html"><img src="https://download.jumpserver.org/images/jumpserver-logo.svg" alt="JumpServer" width="300" /></a>
   
 ## An open-source PAM tool (Bastion Host)
-## Test Language
-## Test Language2
 
 [![][license-shield]][license-link][![][discord-shield]][discord-link][![][docker-shield]][docker-link][![][github-release-shield]][github-release-link][![][github-stars-shield]][github-stars-link]
 
@@ -65,7 +63,7 @@ curl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quic
 | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
 | [लीना](https://github.com/jumpserver/lina)           | <a href="https://github.com/jumpserver/lina/releases"><img alt="Lina release" src="https://img.shields.io/github/release/jumpserver/lina.svg" /></a> | जंपसर्वर वेब यूआई                             |
 | [अफ़सर](https://github.com/jumpserver/luna)          | <a href="https://github.com/jumpserver/luna/releases"><img alt="Luna release" src="https://img.shields.io/github/release/jumpserver/luna.svg" /></a> | जंपसर्वर वेब टर्मिनल                          |
-| [आकार](https://github.com/jumpserver/koko)           | <a href="https://github.com/jumpserver/koko/releases"><img alt="Koko release" src="https://img.shields.io/github/release/jumpserver/koko.svg" /></a> | जंपसर्वर कैरेक्टर प्रोटोकॉल कनेक्टर           |
+| [KoKo](https://github.com/jumpserver/koko)           | <a href="https://github.com/jumpserver/koko/releases"><img alt="Koko release" src="https://img.shields.io/github/release/jumpserver/koko.svg" /></a> | जंपसर्वर कैरेक्टर प्रोटोकॉल कनेक्टर           |
 | [शेर](https://github.com/jumpserver/lion)            | <a href="https://github.com/jumpserver/lion/releases"><img alt="Lion release" src="https://img.shields.io/github/release/jumpserver/lion.svg" /></a> | जंपसर्वर ग्राफिकल प्रोटोकॉल कनेक्टर           |
 | [चेन](https://github.com/jumpserver/chen)            | <a href="https://github.com/jumpserver/chen/releases"><img alt="Chen release" src="https://img.shields.io/github/release/jumpserver/chen.svg" />     | जंपसर्वर वेब डीबी                             |
 | \[रेजर](https&#x3A;//github.com/jumpserver/razor)    | <img alt="Chen" src="https://img.shields.io/badge/release-private-red" />                                                                            | जंपसर्वर ईई आरडीपी प्रॉक्सी कनेक्टर           |
@@ -79,7 +77,7 @@ curl -sSL https://github.com/jumpserver/jumpserver/releases/latest/download/quic
 
 ## सुरक्षा
 
-JumpServer is a mission critical product. Please refer to the Basic Security Recommendations for installation and deployment. If you encounter any security-related issues, please contact us directly:
+जंपसर्वर एक मिशन महत्वपूर्ण उत्पाद है। कृपया स्थापना और परिनियोजन के लिए बुनियादी सुरक्षा अनुशंसाएँ देखें। यदि आपको सुरक्षा संबंधी कोई समस्या आती है, तो कृपया हमसे सीधे संपर्क करें:
 
 -   ईमेल: support@fit2cloud.com
 
