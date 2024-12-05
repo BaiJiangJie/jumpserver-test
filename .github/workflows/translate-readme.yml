@@ -18,6 +18,7 @@ on:
         description: "AI Translate Promot"
         required: false
         default: ""
+        type: "textarea"
       gpt_mode:
         description: "GPT Mode"
         required: false
