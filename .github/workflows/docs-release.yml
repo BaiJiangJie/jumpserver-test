@@ -15,6 +15,9 @@ jobs:
         env:
           TAG_NAME: ${{ github.event.release.tag_name }}
         run: |
+          git config --global user.name 'BaiJiangJie'
+          git config --global user.email 'jiangjie.bai@fit2cloud.com'
+
           git clone https://github.com/jumpservice/documentation.git
           cd documentation/utils
           bash update_changelog.sh
