@@ -9,7 +9,7 @@ on:
       gen_dir_path:
         description: "Generate Dir Name"
         required: false
-        default: "./readmes/"
+        default: "readmes/"
       push_branch:
         description: "Push Branch"
         required: false
