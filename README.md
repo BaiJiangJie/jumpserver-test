@@ -10,7 +10,8 @@
 [![][github-release-shield]][github-release-link]
 [![][github-stars-shield]][github-stars-link]
 
-**English** · [简体中文](./README.zh-CN.md)
+[**English**](./README.md) · [中文(简体)](./readmes/README.zh-hans.md) · [中文(繁體)](./readmes/README.zh-hant.md) · [日本語](./readmes/README.ja.md) · [Português (Brasil)](./readmes/README.pt-br.md)
+
 </div>
 <br/>
 
