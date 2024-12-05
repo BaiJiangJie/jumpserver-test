@@ -15,7 +15,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.DOCS_ACCESS_TOKEN }}
           TAG_NAME: ${{ github.event.release.tag_name }}
-        run:
+        run: ｜
           git clone git@github.com:jumpservice/documentation.git
-          cd documentation/utils && bash update_changelog.sh
+          cd documentation/utils
+          bash update_changelog.sh
           
