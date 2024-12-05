@@ -18,7 +18,7 @@ jobs:
           git config --global user.name 'BaiJiangJie'
           git config --global user.email 'jiangjie.bai@fit2cloud.com'
 
-          git clone https://github.com/jumpservice/documentation.git
+          git clone https://$GITHUB_TOKEN@github.com/jumpservice/documentation.git
           cd documentation/utils
           bash update_changelog.sh
           
