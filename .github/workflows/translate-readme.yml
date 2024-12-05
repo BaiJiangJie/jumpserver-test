@@ -6,22 +6,22 @@ on:
         description: "Target Languages"
         required: false
         default: "zh-hans,zh-hant,ja,pt-br"
-      prompt:
-        description: "AI Translate Promot"
-        required: false
-        default: ""
-      push_branch:
-        description: "Push Branch"
-        required: false
-        default: "pr@dev@translate_readme"
-      gpt_mode:
-        description: "GPT Mode"
-        required: false
-        default: "gpt-4o-mini"
       gen_dir_path:
         description: "Generate Dir Name"
         required: false
         default: "./readmes/"
+      push_branch:
+        description: "Push Branch"
+        required: false
+        default: "pr@dev@translate_readme"
+      prompt:
+        description: "AI Translate Promot"
+        required: false
+        default: ""
+      gpt_mode:
+        description: "GPT Mode"
+        required: false
+        default: "gpt-4o-mini"
 
 jobs:
   build:
