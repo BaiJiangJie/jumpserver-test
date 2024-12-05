@@ -2,10 +2,27 @@ name: Translate README
 on:
   workflow_dispatch:
     inputs:
-      languages:
-        description: "Target languages"
+      target_langs:
+        description: "Target Languages"
         required: false
         default: "zh-hans,zh-hant,ja,pt-br"
+      prompt:
+        description: "AI Translate Promot"
+        required: false
+        default: ""
+      push_branch:
+        description: "Push Branch"
+        required: false
+        default: "pr@dev@translate_readme"
+      gpt_mode:
+        description: "GPT Mode"
+        required: false
+        default: "gpt-4o-mini"
+      gen_dir_path:
+        description: "Generate Dir Name"
+        required: false
+        default: "./readmes/"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,5 +32,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.GPT_API_TOKEN }}
-          GPT_MODE: 'gpt-4o-mini'
-          TARGET_LANGUAGES: ${{ github.event.inputs.languages }}
+          GPT_MODE: ${{ github.event.inputs.gpt_mode }}
+          TARGET_LANGUAGES: ${{ github.event.inputs.target_langs }}
+          PUSH_BRANCH: ${{ github.event.inputs.push_branch }}
+          GEN_DIR_PATH: ${{ github.event.inputs.gen_dir_path }}
+          PROMPT: ${{ github.event.inputs.prompt }}
